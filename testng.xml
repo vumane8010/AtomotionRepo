@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/suraj/IdeaProjects/VijayPatilAtomotionProject">
+        <classes>
+            <class name="testng.AnotationMaven">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="testng.TestngFirstExample">
+                <methods>
+                    <include name="testcase1"/>
+                    <include name="testcase2"/>
+                    <include name="testcase3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
